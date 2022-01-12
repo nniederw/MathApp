@@ -786,6 +786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   generator: {fileID: 21477410}
+  Mode: 1
 --- !u!4 &1935773029
 Transform:
   m_ObjectHideFlags: 0
