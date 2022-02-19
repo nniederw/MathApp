@@ -14,9 +14,9 @@ public static class UnicodeChars
     public const string Lower9 = "\u2089";
 
     public const string Upper0 = "\u2070";
-    public const string Upper1 = "\u2071";
-    public const string Upper2 = "\u00B2";
-    public const string Upper3 = "\u2073";
+    public const string Upper1 = "\u00B9";//Wtf Unicode
+    public const string Upper2 = "\u00B2";//Wtf Unicode
+    public const string Upper3 = "\u00B3";//Wtf Unicode
     public const string Upper4 = "\u2074";
     public const string Upper5 = "\u2075";
     public const string Upper6 = "\u2076";
@@ -32,6 +32,6 @@ public static class UnicodeChars
     public const string Mod7 = Equivalence + Lower7;
     public const string Mod8 = Equivalence + Lower8;
     public const string Mod9 = Equivalence + Lower9;
-    public const string Mod10 = Equivalence + Lower1+Lower0;
-    public const string Mod11 = Equivalence + Lower1+Lower1;
+    public const string Mod10 = Equivalence + Lower1 + Lower0;
+    public const string Mod11 = Equivalence + Lower1 + Lower1;
 }

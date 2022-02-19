@@ -12,6 +12,7 @@ public class QuestionSupplier : MonoBehaviour
     public enum QuestionMode { Simple, Squares};
     private void Start()
     {
+        Debug.Log(UnicodeChars.Upper0+UnicodeChars.Upper1+ UnicodeChars.Upper2+ UnicodeChars.Upper3 + UnicodeChars.Upper4);
         SimpleQuestions.AddRange(new List<Func<Question>>
         {
             RIntPlus,
